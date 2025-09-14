@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
 """
-Return the fewest operations needed to reach n 'H' characters using Copy All and Paste.
+Return the fewest operations needed to reach 
+n 'H' characters using Copy All and Paste.
 
 - def minOperations(n): → int
 - Returns 0 if n ≤ 1
@@ -22,3 +23,4 @@ def minOperations(n):
         factor += 1
 
     return operations
+    
